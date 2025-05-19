@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome extention</title>
+   
+    <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+    <div class="container">
+        <h3 id="title">
+            globle entry drops
+        </h3>
+        <div class="field">
+            <label class="label">Status</label>
+            <span id="isRunningSpan" class="tag running">Running</span>
+            <span id="isStoppedSpan" class="tag stopped">Stopped</span>
+            
+        </div>
+        <div class="container">
+            <div class="field">
+                <label for="locationID">
+                    Location ID
+                </label>                
+            </div> 
+            <select id="locationid">
+               
+            </select>
+            <div class="field">
+                <label for="startdate" class="label">Start Date</label>
+                <input type="date" id="startdate" class = "input" name="start date">
+            </div>
+            <div class="field">
+                <label for="enddate" class="label">End Date </label>
+                <input type="date" id="enddate" name="enddate" class = "input" ></input>
+            </div>
+            
+        </div> 
+        
+        <div class="field">
+            <button class="buttonstart" id="startbtn"> Save & Start</button>
+            <button class="buttonstop" id="stopbtn"> stop</button>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+
+</html>

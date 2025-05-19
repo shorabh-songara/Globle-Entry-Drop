@@ -1,0 +1,87 @@
+.container{
+    padding: px;
+}
+
+#title{
+
+    margin-bottom: 4px;
+}
+
+.label{
+    color :black;
+    padding: 4px;
+    margin-bottom: 4px;
+    font-size: 1em;
+
+    font-weight: 600;
+}
+
+
+.tag{
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 6px;
+    margin: 3px;
+    cursor: pointer;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.buttonstart{
+    width: 100%;
+    margin: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: green;
+    box-shadow: 2px;
+    justify-content: center;
+    padding: 6px;
+}
+.buttonstop{
+    width: 100%;
+    margin: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px;
+    background-color: red;
+    justify-content: center;
+    padding: 6px;
+}
+.running{
+    background-color: rgb(88, 245, 88);
+    border-radius: 10px;
+}
+.stopped{
+    background-color: red;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.select{
+    height: 30px;
+    width: 200px;
+}
+
+.input{
+    height: 30px;
+}
+.field{
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#locationid {
+    display: block;
+    width: 100%;
+}
