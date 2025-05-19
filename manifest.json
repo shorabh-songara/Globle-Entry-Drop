@@ -3,6 +3,10 @@
     "name":"Globle Entry Drops",
     "description" : "find globle entry interview that meet your selection criteria",
     "version":"1.0",
+    "background" :{
+        "service_worker" : "background.js",
+        "type" : "module"
+    },
     "action" : {
         "default_popup" : "popup/popup.html"
     },
@@ -14,13 +18,15 @@
 
     },
 
-    "background" :{
-        "service_worker" : "background.js",
-        "type" : "module"
-    },
 
     "permissions":[
-        "storage"
+        "storage",
+        "alarms"
+    ],
+
+    "host_permissions": [
+        "https://ttp.cbp.dhs.gov/*"
     ]
+
 
 }
